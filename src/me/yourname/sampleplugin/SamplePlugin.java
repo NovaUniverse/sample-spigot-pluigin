@@ -57,9 +57,12 @@ public class SamplePlugin extends JavaPlugin implements Listener {
 
 	// This is our event that sends a welcome message to players when they join.
 
-	// To make an event we create a function with any name of our choise then we add
+	// To make an event we create a function with any name of our choice then we add
 	// the @EventHandler annotation to the function. The event that this function
-	// handles is determined by the class type our function takes as an argument
+	// handles is determined by the class type our function takes as an argument.
+
+	// A list of all event types can be found here
+	// https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/package-summary.html
 	@EventHandler(priority = EventPriority.NORMAL)
 	public void onPlayerJoin(PlayerJoinEvent e) {
 		// Now we get the player from the PlayerJoinEvent and send the message we loaded
