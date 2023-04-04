@@ -1,0 +1,28 @@
+# Documentation for plugin.yml can be found here https://www.spigotmc.org/wiki/plugin-yml/
+
+# This is the name of our plugin
+name: SamplePlugin
+
+# This is where we set our plugins main class file
+main: me.yourname.sampleplugin.SamplePlugin
+
+# This is the descriotion of our plugins
+description: A demo of how to make spigot plugins
+
+# This is the version number that we can change every time we release an update
+version: 1.0
+
+# Here we specify what version of spigot out plugin is written for. At the time of making this sample the latest api version is 1.19
+api-version: 1.19
+
+# We put the names of the people that made the plugin here
+authors: [YourName]
+
+# If you have your own website you can put this here otherwise remove this
+website: example.com
+
+# Now we define our commands. If you add a new command you need to add it in here otherwise you will receive an error when trying to register your command
+commands:
+   heal:
+      description: Heal yourself or another player.
+      usage: "Usage: /heal [Player]"

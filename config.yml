@@ -1,0 +1,4 @@
+# We can use the config.yml file to allow the users of our plugin to tweak the behaviour of our plugin
+
+# As an example here we make it so that the user can customise the welcome message our plugin displays when a player joins
+WelcomeMessage: "$aWelcome to the server"
